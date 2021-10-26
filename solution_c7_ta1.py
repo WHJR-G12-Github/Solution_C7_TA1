@@ -73,7 +73,7 @@ while True:
           # Assigning random value to 'enemy.x'
           enemy.x=random.choice([random.randint(-250,0),random.randint(400,650)])
           # Assigning random value to 'enemy.y'
-          enemy.x=random.choice([random.randint(-250,0),random.randint(600,850)])  
+          enemy.y=random.choice([random.randint(-250,0),random.randint(600,850)])  
       
       screen.blit(enemy_image,enemy)  
       i=i+1
